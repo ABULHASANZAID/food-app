@@ -1,0 +1,9 @@
+.explore-food{
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+
+.explore-food-card{
+    margin: 20px;
+}
