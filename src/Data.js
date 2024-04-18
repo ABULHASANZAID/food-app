@@ -4,7 +4,7 @@ import menuImage3 from "./assets/images/menu3.webp";
 import menuImage4 from "./assets/images/menu4.jpg";
 import menuImage5 from "./assets/images/menu5.webp";
 import menuImage6 from "./assets/images/menu6.webp";
-import cartImage1 from "./assets/images/matan_c.jpg";
+import cartImage1 from "./assets/images/chicken-chanzi.webp";
 import cartImage2 from "./assets/images/cart2.jpeg";
 import cartImage3 from "./assets/images/QT-Gujarat.jpg";
 import cartImage4 from "./assets/images/menu4.jpg";

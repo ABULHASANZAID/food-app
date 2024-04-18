@@ -1,6 +1,7 @@
 .explore-food{
     display: flex;
     flex-wrap: wrap;
+    padding-top: 100px;
    
 }
 

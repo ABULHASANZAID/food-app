@@ -1,11 +1,17 @@
 import React, { useEffect, useState } from 'react'
 import './ExploreFood.css'
+
 const ExploreFood = () => {
     const [foods, setFoods] = useState();
     const fetchFood =async ()=>{
-       const res =await  fetch('https://dummyjson.com/recipes');
+       try {
+        const res =await  fetch('https://dummyjson.com/recipes');
        const data = await res.json();
        setFoods(data.recipes);
+        
+       } catch (error) {
+        console.error(error)
+       }
     }
     console.log(foods)
 
@@ -26,6 +32,7 @@ const ExploreFood = () => {
             <div className="">{food.name}</div>
         </div>
        })}
+
       
     </div>
   )
